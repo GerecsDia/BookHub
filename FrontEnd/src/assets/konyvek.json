@@ -1,0 +1,170 @@
+[
+    {
+        "title": "A Gyűrűk Ura",
+        "author": "J.R.R. Tolkien",
+        "description": "A Gyűrűk Ura J.R.R. Tolkien közismert és népszerű fantasy regénysorozata, mely az Újkorban játszódik. A történet középpontjában a Gyűrű áll, amelyet Sauron, a Sötétség Nagyúra készített, hogy uralma alá hajtsa a világot.",
+        "year": 1954,
+        "image": "1"
+    },
+    {
+        "title": "Harry Potter és a bölcsek köve",
+        "author": "J.K. Rowling",
+        "description": "Harry Potter és a bölcsek köve J.K. Rowling angol írónő első regénye, amely a Harry Potter regénysorozatot indította el. A történet a fiatal varázsló, Harry Potter kalandjait követi nyomon a Roxfort Boszorkány- és Varázslóképző Szakiskolában.",
+        "year": 1997,
+        "image": "2"
+    },
+    {
+        "title": "Az idő rövid története",
+        "author": "Stephen Hawking",
+        "description": "Az idő rövid története Stephen Hawking világhírű elméleti fizikus könyve, amelyben a kozmológiai elméleteket és az idő dimenzióját vizsgálja. A könyv népszerűen és érthetően fogalmazza meg a fizika legkomplexebb témáit.",
+        "year": 1988,
+        "image": "3"
+    },
+    {
+        "title": "Percy Jackson - Az olimposz hőse",
+        "author": "Rick Riordan",
+        "description": "Percy Jackson - Az Olimposz hőse Rick Riordan amerikai író ifjúsági regénysorozata, amely a görög mitológiát és a modern világot ötvözi. A történet Percy Jacksonról szól, aki felfedezi, hogy görög istenek leszármazottja és különleges képességei vannak.",
+        "year": 2005,
+        "image": "4"
+    },
+    {
+        "title": "Az alkimista",
+        "author": "Paulo Coelho",
+        "description": "Az alkimista Paulo Coelho brazil író világszerte népszerű regénye, amely egy pásztort, Santiagót követi nyomon az álmai megvalósítása felé vezető úton. A könyv a célkitűzések, az álmok és a személyes fejlődés témáját járja körül.",
+        "year": 1988,
+        "image": "5"
+    },
+    {
+        "title": "A kis herceg",
+        "author": "Antoine de Saint-Exupéry",
+        "description": "A kis herceg Antoine de Saint-Exupéry francia író híres novellája, amely egy űrbéli lakóval, a Kis Herceggel való találkozás történetét meséli el. A novella mély gondolatokat fogalmaz meg a felnőttek világáról és a gyermeki naivitásról.",
+        "year": 1943,
+        "image": "6"
+    },
+    {
+        "title": "Az aranykor",
+        "author": "Jenő Rejtő",
+        "description": "Az aranykor Jenő Rejtő magyar író krimi-regénye, amely egy piszkosul tehetséges, de elszegényedett zseniális művész, Nagy Bandó András kalandjait követi nyomon. A könyv humoros és fordulatos eseményekkel teli.",
+        "year": 1935,
+        "image": "7"
+    },
+    {
+        "title": "Az idő urai",
+        "author": "Isaac Asimov",
+        "description": "Az idő urai Isaac Asimov amerikai író science fiction regénye, amely az emberi történelem alakulását és a különböző idősíkok közötti utazásokat elemzi. A regény izgalmas és intellektuális kihívásokkal teli.",
+        "year": 1955,
+        "image": "8"
+    },
+    {
+        "title": "A Gyűrűk Ura",
+        "author": "J.R.R. Tolkien",
+        "description": "A Gyűrűk Ura J.R.R. Tolkien közismert és népszerű fantasy regénysorozata, mely az Újkorban játszódik. A történet középpontjában a Gyűrű áll, amelyet Sauron, a Sötétség Nagyúra készített, hogy uralma alá hajtsa a világot.",
+        "year": 1954,
+        "image": "9"
+    },
+    {
+        "title": "Harry Potter és a bölcsek köve",
+        "author": "J.K. Rowling",
+        "description": "Harry Potter és a bölcsek köve J.K. Rowling angol írónő első regénye, amely a Harry Potter regénysorozatot indította el. A történet a fiatal varázsló, Harry Potter kalandjait követi nyomon a Roxfort Boszorkány- és Varázslóképző Szakiskolában.",
+        "year": 1997,
+        "image": "10"
+    },
+    {
+        "title": "Az idő rövid története",
+        "author": "Stephen Hawking",
+        "description": "Az idő rövid története Stephen Hawking világhírű elméleti fizikus könyve, amelyben a kozmológiai elméleteket és az idő dimenzióját vizsgálja. A könyv népszerűen és érthetően fogalmazza meg a fizika legkomplexebb témáit.",
+        "year": 1988,
+        "image": "11"
+    },
+    {
+        "title": "Percy Jackson - Az olimposz hőse",
+        "author": "Rick Riordan",
+        "description": "Percy Jackson - Az Olimposz hőse Rick Riordan amerikai író ifjúsági regénysorozata, amely a görög mitológiát és a modern világot ötvözi. A történet Percy Jacksonról szól, aki felfedezi, hogy görög istenek leszármazottja és különleges képességei vannak.",
+        "year": 2005,
+        "image": "12"
+    },
+    {
+        "title": "The Silmarillion",
+        "author": "J.R.R. Tolkien",
+        "description": "A collection of myths, legends, and histories set in Tolkien's Middle-earth.",
+        "year": 1977,
+        "image": "1"
+    },
+    {
+        "title": "The Children of Húrin",
+        "author": "J.R.R. Tolkien",
+        "description": "A tragic novel exploring the story of Túrin Turambar.",
+        "year": 2007,
+        "image": "2"
+    },
+    {
+        "title": "Unfinished Tales of Númenor and Middle-earth",
+        "author": "J.R.R. Tolkien",
+        "description": "A collection of incomplete stories and narratives from Middle-earth.",
+        "year": 1980,
+        "image": "3"
+    },
+    {
+        "title": "The History of Middle-earth series",
+        "author": "J.R.R. Tolkien",
+        "description": "A 12-volume series of Tolkien's writings on his fictional world.",
+        "year": 1983,
+        "image": "4"
+    },
+    {
+        "title": "Beren and Lúthien",
+        "author": "J.R.R. Tolkien",
+        "description": "A love story between a mortal man and an immortal elf.",
+        "year": 2017,
+        "image": "5"
+    },
+    {
+        "title": "The Fall of Gondolin",
+        "author": "J.R.R. Tolkien",
+        "description": "The story of the fall of the elven city of Gondolin.",
+        "year": 2018,
+        "image": "6"
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "description": "A fantasy adventure novel that serves as a prequel to The Lord of the Rings.",
+        "year": 1937,
+        "image": "7"
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "author": "J.R.R. Tolkien",
+        "description": "The first book in the epic fantasy series.",
+        "year": 1954,
+        "image": "8"
+    },
+    {
+        "title": "The Lord of the Rings: The Two Towers",
+        "author": "J.R.R. Tolkien",
+        "description": "The second book in the epic fantasy series.",
+        "year": 1954,
+        "image": "9"
+    },
+    {
+        "title": "The Lord of the Rings: The Return of the King",
+        "author": "J.R.R. Tolkien",
+        "description": "The third and final book in the epic fantasy series.",
+        "year": 1955,
+        "image": "10"
+    },
+    {
+        "title": "The Hobbit: The Desolation of Smaug",
+        "author": "J.R.R. Tolkien",
+        "description": "The second film in The Hobbit film series.",
+        "year": 2013,
+        "image": "11"
+    },
+    {
+        "title": "The Hobbit: The Battle of the Five Armies",
+        "author": "J.R.R. Tolkien",
+        "description": "The third and final film in The Hobbit film series.",
+        "year": 2014,
+        "image": "12"
+    }
+]

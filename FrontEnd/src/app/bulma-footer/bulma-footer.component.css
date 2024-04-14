@@ -1,0 +1,15 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #ccc; /* Vékonyabb szegély a lábléc tetején */
+    padding-top: 10px; /* Tetejének belső margója */
+    padding-bottom: 10px; /* Aljának belső margója */
+}
+
+.footer .content {
+    font-size: 14px; /* Vékonyabb szöveg mérete */
+}

@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bulma/css/bulma.css';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Háttérszín */
+::-webkit-scrollbar-thumb {
+  background-color: silver;
+}
+
+/* Szegélyszín */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,62 @@
+.card:hover{
+    transform: scale(1.01);
+}
+
+.h1{
+  text-align: center;
+}
+.cim-fixed{
+    height: 60px;
+}
+.box{
+  text-align: center;
+}
+
+.card{
+    position: relative;
+    top: 30px;
+}
+.buttons is-centered{
+  text-align: center;
+}
+
+.container{
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) and (min){
+    .title{
+        font-size: 24px;
+    }
+    .has-fixed-height{
+      height: 600px;
+      overflow: hidden;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .title{
+      font-size:24px;
+    }
+    
+  }
+
+  @media screen and (min-width: 1216px) {
+    .title {
+      font-size: 24px;
+    }
+    .has-fixed-height {
+      height: 200px; 
+      overflow:auto; 
+  }
+  }
+  
+  @media screen and (min-width: 1408px) {
+    .title {
+      font-size: 26px;
+    }
+    .has-fixed-height {
+      height: 200px; 
+      overflow:auto; 
+  }
+  }

@@ -1,0 +1,43 @@
+ 
+.section{
+    background:url('src/assets/wallpaper.png')no-repeat center center fixed; 
+    margin:0px;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size:cover;
+ -o-background-size:cover;
+ -moz-background-size:cover;
+ background-size:cover;
+ min-height: 90vh;
+}
+.select{
+    opacity: 0.5;
+}
+.select:hover, .select:focus{
+    opacity: 0.8;
+}
+.input{
+    opacity: 0.5;
+}
+.input:hover, input:focus{
+    opacity: 0.8;
+    transform: scale(1.01);
+}
+.button{
+    opacity: 0.9;
+}
+.button:hover, .button:focus{
+    opacity: 1;
+}
+.column{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.dark{
+    color: black;
+}

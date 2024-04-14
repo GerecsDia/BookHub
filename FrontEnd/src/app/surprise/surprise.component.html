@@ -1,0 +1,54 @@
+<section class="section columns">
+    <div class="column is-one-third"></div>
+   <div class="column is-centered is-one-third">
+        
+          <h1 class = "has-text-centered">Igazi meglepetés vár rád, ha megnyomod a lenti gombot!</h1>
+          
+        <div class="field image">
+            <figure class="is-4by3">
+          <img src="assets/zsakbamackokep.jpg" alt="Placeholder image" class="image" *ngIf="!clicked">
+          </figure>
+
+          <div class="field m-3" *ngIf="clicked">
+            <div class="card has-background-grey-lighter is-mobile">
+                <div class="card-image">
+                    <figure class=" is-64x64">
+                        <img src="../assets/{{this.image}}.png" alt="Placeholder image" class="image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4 cim cim-fixed">{{ this.object.title }}</p>
+                            <div class="level is-mobile">
+                                <div class="level-left level-item">
+                                    <div>
+                                        <p class="subtitle is-6">Szerző: <b>{{ this.object.author }}</b></p>
+                                        <p class="subtitle is-6">Kategória: {{ this.object.category }}</p>
+                                    </div>
+                                </div>
+                                <div class="level-right level-item is-mobile" >
+                                    <div>
+                                        <div class="subtitle is-6">Hely: {{this.object.county}}</div>
+                                        <div class="subtitle is-6">Állapot: {{this.object.quality}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="level">
+                        <div class="level-left level-item"><button class="button is-info gomb">Foglal</button></div>
+                        <div class="level-right level-item subtitle">{{this.object.year}}</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+        <div class="field buttons is-centered m-3" >
+              <button (click)="this.loadSurprise()" class="button is-primary is-rounded has-text-dark" *ngIf="!emptyData">Zsákbamackót kérek</button>
+              <button class="button is-danger is-rounded has-text-warning" routerLink="/redbutton" routerLinkActive="active">Ne nyomd meg kérlek!</button>
+        </div>
+  </div>
+  
+</section>

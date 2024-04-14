@@ -1,0 +1,149 @@
+<style>
+    .section {
+        background-color: #7fd3fa;
+                               
+    }
+
+    .hero {
+        position: relative;
+        height: 290px;
+        background-color: #7fd3fa;
+        margin-bottom: -70px;
+            
+    }
+
+    .image-section {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        opacity: 0.1;
+        transition: opacity 0.5s ease;
+    }
+
+    .image-section:hover .overlay {
+        opacity: 0.99;
+    }
+
+    
+
+    .hero:hover .overlay {
+        opacity: 0.99;
+    }
+
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: black;
+    }
+
+    .subtitle {
+        color: #000000;
+    }
+</style>
+
+<app-navbar></app-navbar>
+
+<section class="section">
+    <div class="hero is-link mt-2">
+        <div class="image-section" style="background: url('assets/stack_books.png') top / cover no-repeat;">
+            <p class="maintitle">
+                A szolgáltatásról
+            </p>
+            <div class="overlay">
+                <div class="overlay-content">
+                    <div class="hero-content">
+                        <div class="service-section">
+                            <p class="is-size-3">
+                                A szolgáltatásról
+                            </p>
+                            <p class="subtitle is-family-secondary has-text-black">
+                                A Bookhub egy ingyenes online könyvcsere platform, ahol az olvasók egyedi lehetőséget találnak arra, 
+                                hogy kedvenc könyveiket másokkal cseréljék meg. Ezen a virtuális könyvtérben a különféle olvasási élmények összetalálkoznak, 
+                                és a felhasználók egyszerűen és kényelmesen oszthatják meg és fedezhetik fel új könyveiket. 
+                                A szolgáltatás nem csupán könyvek cseréjét kínálja, hanem egy közösséget is, 
+                                ahol az olvasók megoszthatják élményeiket és tippeket, 
+                                így inspirálva egymást a következő olvasmányuk kiválasztásában.
+                            </p>
+                            <button class="button is-primary is-focused" routerLink="/home">Megnézem a könyveket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="hero is-link mt-2">
+        <div class="image-section" style="background: url('assets/stack_books.png') center / cover no-repeat;">
+            <p class="maintitle">
+                A felajánlásról
+            </p>
+            <div class="overlay">
+                <div class="overlay-content">
+                    <div class="hero-content">
+                        <div class="service-section">
+                            <p class="is-size-3">
+                                A felajánlásról
+                            </p>
+                            <p class="subtitle is-family-secondary has-text-black">
+                                A Bookhub egy különleges lehetőség arra, hogy könyveid ne csak porosodjanak a polcodon, 
+                                hanem találjanak új otthont és gazdát. 
+                                Fedezd fel a könyvcsere kalandját, ahol nem csak olvasol, hanem megoszthatod és cserélheted is a kedvenc történeteidet. 
+                                Minden felhasználó ajánlhat fel könyveket, amikre már nincs szüksége. Ezekre a könyvekre lehet jelentkezni, 
+                                majd a felek megegyezése alapján a könyv gazdát cserél.
+                            </p>
+                            <p class="lilac-text">
+                                A BOOKHUB A HELY, AHOL MINDEN KÖNYVNEK VAN EGY TÖRTÉNETE, ÉS MINDEN TÖRTÉNETNEK EGY ÚJ OTTHONA.
+                            </p>
+                            <button class="button is-primary is-focused" routerLink="">Könyvet ajánlok fel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="hero is-link mt-2">
+        <div class="image-section" style="background: url('assets/stack_books.png') bottom / cover no-repeat;">
+            <p class="maintitle">
+                Az alapítókról
+            </p>
+            <div class="overlay">
+                <div class="overlay-content">
+                    <div class="hero-content">
+                        <div class="service-section">
+                            <p class="is-size-3">
+                                Az alapítókról
+                            </p>
+                            <p class="subtitle is-family-secondary has-text-black">
+                                A Bookhub mögött 3 szenvedélyes olvasó áll, akik álmodoztak egy olyan közösségről, 
+                                ahol a könyvek szeretetét és az olvasási élményeket megosztva lehet fejleszteni. 
+                                Réka, a csapat vezetője, mindig is arra vágyott, hogy könyvek cseréje által megossza saját élményeit és felfedezze mások ízlését. 
+                                Laci, a fejlesztő, egy technológiai zseni, aki létrehozza ezt a platformot, hogy egyszerűvé tegye a könyvcsere folyamatát. Dia pedig a közösségi menedzser, 
+                                aki arra vágyik, hogy mindenki részese lehessen ennek a könyvmoly-közösségnek. 
+                            </p>
+                            <button class="button is-primary is-focused" routerLink="/contact">Felveszem velük a kapcsolatot</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-bulma-footer></app-bulma-footer>
+

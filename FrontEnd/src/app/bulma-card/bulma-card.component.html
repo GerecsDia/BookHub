@@ -1,0 +1,48 @@
+<section class="section">
+    <div *ngIf="jsonData">
+        <div class="columns prodList is-multiline is-variable">
+            <div class="column konyvecske is-one-third" *ngFor="let book of jsonData">
+                <div class="card has-background-grey-lighter">
+                    <div class="card-image">
+                        <figure class="is-4by3">
+                            <img src="../assets/{{book.category}}.png" alt="Placeholder image" class="image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4 cim cim-fixed">{{ book.title }}</p>
+                                <div class="level">
+                                    <div class="level-left level-item">
+                                        <div>
+                                            <p class="subtitle is-6">Szerző: <b>{{ book.author }}</b></p>
+                                            <p class="subtitle is-6">Kategória: {{ book.category }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="level-right level-item">
+                                        <div>
+                                            <div class="subtitle is-6">Hely: {{book.county}}</div>
+                                            <div class="subtitle is-6">Állapot: {{book.quality}}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level">
+                            <div class="level-left level-item"><button class="button is-info gomb">Foglal</button></div>
+                            <div class="level-right level-item subtitle">{{book.year}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ng-container *ngIf="emptyData">
+        <div class="container">
+            <h1 class="has-text-danger">
+                Nincs betöltendő adat :(
+            </h1>
+        </div>
+    </ng-container>
+</section>

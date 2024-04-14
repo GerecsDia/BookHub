@@ -1,0 +1,8 @@
+section {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(41, 182, 246, 0.6);
+    color: rgba(0, 127, 255, 1);
+    font-weight:500;
+    font-size: large;
+  }

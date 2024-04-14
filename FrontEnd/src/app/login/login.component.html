@@ -1,0 +1,20 @@
+
+<section>
+    <form [formGroup]="loginForm" (submit)="login()" class="box columns is-mobile is-centered is-vcentered is-multiline m-6 has-background-success">
+        <div class="field column is-half">
+            <label for="userEmail" class="label">Felhasználónév</label>
+            <input id="userEmail" type="text" class="input has-background-success-light" formControlName="user" required>
+        </div>
+        <div class="field column is-half">
+            <label for="userPassword" class="label">Jelszó</label>
+            <input type="password" id="userPassword" class="input has-background-success-light" formControlName="pass" required>
+        </div>
+        <div class="field column is-half">
+            <label for="email" class="label">Emailcím</label>
+            <input type="email" id="email" class="input has-background-success-light" formControlName="email" required>
+        </div>
+        <div class="column is-centered">
+            <button type="submit" class="button is-fullwidth is-rounded is-responsive is-info">Gomb</button>
+        </div>
+    </form>
+</section>

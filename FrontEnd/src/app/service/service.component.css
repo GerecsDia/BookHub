@@ -1,0 +1,76 @@
+
+.maintitle {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.image-section {
+    margin-right: 15%;
+    margin-left: 15%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2%;
+    background: url('src/assets/stack_books.png') center / cover no-repeat;
+    height: 33.33%;
+}
+
+.section:nth-child(1) .image-section {
+    background-position: center top;
+}
+
+.section:nth-child(2) .image-section {
+    background-position: center center;
+}
+
+.section:nth-child(3) .image-section {
+    background-position: center bottom;
+}
+
+.overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay-title,
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.overlay-content {
+    display: none;
+}
+
+.image-section:hover .maintitle {
+    opacity: 0; 
+}
+
+.image-section:hover .overlay-title {
+    opacity: 0;
+}
+
+.image-section:hover .overlay-content {
+    display: block;
+    opacity: 0.99; 
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    width: 80%;
+     
+}
+

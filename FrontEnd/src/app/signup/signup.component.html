@@ -1,0 +1,48 @@
+<section class="section">
+    <form [formGroup]="userForm" (ngSubmit)="saveUserData()">
+        <div *ngIf="userForm.get('name').errors?.required" class="columns"><h2 class="has-text-warning has-background-primary column is-centered">Kérem írja be a nevét!</h2></div>
+        <div *ngIf="userForm.get('email').errors?.email" class="columns"><h2 class="has-text-warning has-background-primary column is-centered">Rossz emailcím!</h2></div>
+        <div *ngIf="userForm.get('email').errors?.required" class="columns"><h2 class="has-text-warning has-background-primary column is-centered">Rossz emailcím!</h2></div>
+        <div *ngIf="userForm.get('password').errors?.required" class="columns"><h2 class="has-text-warning has-background-primary column is-centered">A jelszó legalább 8 karakter legyen!</h2></div>
+        <div *ngIf="userForm.get('password').errors?.minlength" class="columns"><h2 class="has-text-warning has-background-primary column is-centered">A jelszó legalább 8 karakter legyen!</h2></div>
+        <input type="text" placeholder="Név" class="input mt-2 is-info is-large is-rounded has-text-info-dark"
+            formControlName="name" required>
+        <input type="email" placeholder="Emailcím (example@example.example)" class="input mt-2 is-info is-large is-rounded has-text-info-dark"
+            formControlName="email" required>
+        <input type="password" placeholder="Jelszó (legalább 8 karakter)" class="input mt-2 is-info is-large is-rounded has-text-info-dark"
+            formControlName="password" [minlength]="8" required>
+        <div class="columns">
+            <div class="column">
+                <div class="select is-info is-rounded mt-2 is-large">
+                    <select class="has-text-info-dark" formControlName="county" required>
+                        <option disabled selected>Megyék</option>
+                        <option>Bács-Kiskun</option>
+                        <option>Baranya</option>
+                        <option>Békés</option>
+                        <option>Borsod-Abaúj-Zemplén</option>
+                        <option>Budapest(főváros)</option>
+                        <option>Csongrád-Csanád</option>
+                        <option>Fejér</option>
+                        <option>Győr-Moson-Sopron</option>
+                        <option>Hajdú-Bihar</option>
+                        <option>Heves</option>
+                        <option>Jász-Nagykun-Szolnok</option>
+                        <option>Komárom-Esztergom</option>
+                        <option>Nógrád</option>
+                        <option>Pest</option>
+                        <option>Somogy</option>
+                        <option>Szabolcs-Szatmár-Bereg</option>
+                        <option>Tolna</option>
+                        <option>Vas</option>
+                        <option>Veszprém</option>
+                        <option>Zala</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column">
+                <button type="submit" class="button is-large is-info is-rounded mt-2"
+                    [disabled]="!userForm.valid">Mehet</button>
+            </div>
+        </div>
+    </form>
+</section>
